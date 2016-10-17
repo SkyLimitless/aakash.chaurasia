@@ -12,8 +12,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Easy Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1);
+	$(document).ready(function () {
+		$("#expbtn1").button();
+		$("#expbtn1").click(function () { //you can give id or class name here for $('button')
+			$(this).text(function (i, old) {
+				return old == 'More...' ? 'Less...' : 'More...';
+			});
+		});
+	});
+} </script>
+	<!-- Custom Theme files -->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
 <link rel="stylesheet" href="css/lightbox.css"> 
@@ -229,6 +238,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<h4>Junior Java Developer</h4>
 								<p>Worked on Spring Framework for creating the MVC architecture and RESTful services.</p>
 								<p>For database access used Hibernate to fire SQL query from application to database</p>
+								<div id="experience1" class="collapse">
+									<p>Worked on Spring Framework for creating the MVC architecture and RESTful services.</p>
+									<p>For database access used Hibernate to fire SQL query from application to database</p>
+								</div>
+								<div align="right">
+									<button id="expbtn1" href="#experience1"  class="btn btn-info" data-toggle="collapse">More...</button>
+								</div>
+
 							</div>
 							<div class="clearfix"> </div>
 						</div> 
