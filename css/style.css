@@ -373,10 +373,17 @@ p {
 }
 
 .experience-right h4 {
-    font-size: 1.6em;
-    color: #1dadd3;
+     font-size: 1.6em;
+     color: #1dadd3;
+     margin-bottom: 0.5em;
+     font-weight: 900;
+ }
+
+.experience-right h5 {
+    font-size: 1.2em;
+    color: rgba(19, 198, 245, 0.6);
     margin-bottom: 0.5em;
-	font-weight: 900;
+    font-weight: 900;
 }
 
 .experience-right span {
