@@ -510,21 +510,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span class="quot">&ldquo;</span>It has been a joy to work with Aakash.
 									We worked together on data migration project.
 									He was core of our implementation team with best technical skills of team he worked in.
-									He is able to implement solution based on requirement specification regardless of technology - Oracle PL/SQL, Unix ksh or VBA.<span class="quot">&rdquo;</span></p>
-								<div id="reco2" class="collapse">
-									<p><span class="quot">&ldquo;</span>He impressed me, that he quickly identified issues + proposed improvements in code of other team members.
+									He is able to implement solution based on requirement specification regardless of technology - Oracle PL/SQL, Unix ksh or VBA.
+								<span id="reco2" class="collapse">
+									He impressed me, that he quickly identified issues + proposed improvements in code of other team members.
 										The quality of his work is on high level. He is able to quickly adapt to new trends & advanced techniques.
 										Aakash has strong communication skills. Whenever he found an open point, he immediatelly took actions to clarify it.
 										He is friendly, open minded. High stress level doesn't affect his attitude nor quality of his work.
 										He is hard-working and proactive: In a moment he completed any task he asked for a next one.
 										He has tackled every task assigned to him with enthusiasm and competence.
-										I would definitelly recommend Aakash as a member of development team with good perspective to become team leader or solution architect.</p>
-										<p><b>Indeed, I hope I'll work with him again. Not only because of his technical skills - many people can learn them.
-										I'd like to work with him because he's friendly, easy-going person and reliable team player.</b><span class="quot">&rdquo;</span></p>
-								</div>
+										I would definitelly recommend Aakash as a member of development team with good perspective to become team leader or solution architect.
+										<b>Indeed, I hope I'll work with him again. Not only because of his technical skills - many people can learn them.
+										I'd like to work with him because he's friendly, easy-going person and reliable team player.</b><span id="insideQuote" class="quot">&rdquo;</span>
+								</span><span id="lastQuote" class="quot">&rdquo;</span></p>
 								<div align="right">
-									<button href="#reco2"  class="btn btn-info primButton" data-toggle="collapse">More...</button>
+									<button href="#reco2"  class="btn btn-info primButton1" data-toggle="collapse">More...</button>
 								</div>
+								<script>
+									$(".primButton1").click(function () { //you can give id or class name here for $('button')
+										$(this).text(function (i, old) {
+											$("#insideQuote").toggle();
+											$("#lastQuote").toggle();
+											return old == 'More...' ? 'Less...' : 'More...';
+										});
+
+									});
+								</script>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
