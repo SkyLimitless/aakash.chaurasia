@@ -12,8 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Easy Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1);} </script>
+	<!-- Custom Theme files -->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
 <link rel="stylesheet" href="css/lightbox.css"> 
@@ -227,8 +227,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							<div class="experience-right">
 								<h4>Junior Java Developer</h4>
-								<p>Worked on Spring Framework for creating the MVC architecture and RESTful services.</p>
-								<p>For database access used Hibernate to fire SQL query from application to database</p>
+								<p>Worked on Spring Framework for creating the MVC architecture and RESTful services.
+									For database access used Hibernate to fire SQL query from application to database</p>
+								<div id="experience1" class="collapse">
+									<p>My tasks is to migrate our code from MVC to SOA, I started developing services for each and everything.
+										So my primary work is focused around creating a RESTFul service’s for controller and Model.
+										Following is the approach which I used for tasks. First, I create a Controller similar to old system but with different calls.
+										Second, I develop a Service Implementation for Controller, which in turns call to respective Model service which it requires to access Model data in order to perform the operation.
+										Third, I developed the Model Service which calls the Models Data Access Objects,
+										which in turn provides the abstraction layer from the model to the outer controller.
+										So if there is any change in Controller, one has to do no changes to the Model,
+										it remains intact and it can also serve as Service API, which can be used for generating addition revenues.
+										In order to test the functionality I created a Http Client which makes a REST calls and hits the Controller.
+										Then I created a Junit function test which will call the client method to initiate the process.</p>
+								</div>
+								<div align="right">
+									<button href="#experience1"  class="btn btn-info primButton" data-toggle="collapse">More...</button>
+								</div>
 							</div>
 							<div class="clearfix"> </div>
 						</div> 
@@ -239,8 +254,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							<div class="experience-right">
 								<h4>Software Developer</h4>
-								<p>Migrated 100,000 records bi-weekly from Legacy system to Target SIEBEL, UIM, BRM, FMW</p>
-								<p>Devised the workflow on BSS tool to run the ETL process for effieciency</p>
+								<p>Migrated 100,000 records bi-weekly from Legacy system to Target SIEBEL, UIM, BRM, FMW.
+									Devised the workflow on BSS tool to run the ETL process which reduced time by 70%; engineered on SQL, PLSQL, QC during the project span.</p>
+								<div id="experience2" class="collapse">
+									<p>Retrieved xml files using SQL query for representing 100,000 records in single xml,
+										which are source for loading data in BRM Prepared clean data in usable 4 formats using Macros,
+										VB Script and db connection for end user report.
+										Programmed Unix shell scripts for database connection.
+										Designed 200 test Scripts for unit testing and performance testing.
+										Built reports in tabular format for high end view to clients, which reduce manual work by 98%.
+										Was Awarded the ‘GO for GOLD’ award for Problem Solving award in SEP 2014,commitment in Feb 2015
+									</p>
+								</div>
+								<div align="right">
+									<button href="#experience2"  class="btn btn-info primButton" data-toggle="collapse">More...</button>
+								</div>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -251,8 +279,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							<div class="experience-right">
 								<h4>Android Intern</h4>
-								<p>Assembled an app which allowed to Send SMS and MMS messages</p>
-								<p>Incorporated a feature of checklist in app, about his likes; diagnosed from the location of user</p>
+								<p>Assembled an app which allowed to Send SMS and MMS messages
+									Incorporated a feature of checklist in app, about his likes; diagnosed from the location of user</p>
+								<div id="experience3" class="collapse">
+									<p>Created a code snippet that extracts location and screens the ads according to user location according to checklist.
+										Implemented geocoder and reverse geocoder for converting from (lat, lng) to (x,y) coordinates vice versa.
+										Integrated AdMOB service, which is provided by google. All the Ads in Android apps are registered at AdMob.
+									</p>
+								</div>
+								<div align="right">
+									<button href="#experience3"  class="btn btn-info primButton" data-toggle="collapse">More...</button>
+								</div>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -415,7 +452,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span class="quot">&ldquo;</span>I have worked with Aakash during one year on a Migration project for a South African operator.
 									Working with Aakash has been a pleasure. He is smart and learns very quickly.
 									He is a hard-worker and has curiosity on everything he does.
-									Because of these 3 virtues, Aakash does every task quickly and with great quality.<span class="quot">&rdquo;</span></p>
+									Because of these 3 virtues, Aakash does every task quickly and with great quality.</p>
+									<p><b>Definitively, Aakash is a person I would like to have in my team</b>
+									<span class="quot">&rdquo;</span></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -429,6 +468,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									We worked together on data migration project.
 									He was core of our implementation team with best technical skills of team he worked in.
 									He is able to implement solution based on requirement specification regardless of technology - Oracle PL/SQL, Unix ksh or VBA.<span class="quot">&rdquo;</span></p>
+								<div id="reco2" class="collapse">
+									<p><span class="quot">&ldquo;</span>He impressed me, that he quickly identified issues + proposed improvements in code of other team members.
+										The quality of his work is on high level. He is able to quickly adapt to new trends & advanced techniques.
+										Aakash has strong communication skills. Whenever he found an open point, he immediatelly took actions to clarify it.
+										He is friendly, open minded. High stress level doesn't affect his attitude nor quality of his work.
+										He is hard-working and proactive: In a moment he completed any task he asked for a next one.
+										He has tackled every task assigned to him with enthusiasm and competence.
+										I would definitelly recommend Aakash as a member of development team with good perspective to become team leader or solution architect.</p>
+										<p><b>Indeed, I hope I'll work with him again. Not only because of his technical skills - many people can learn them.
+										I'd like to work with him because he's friendly, easy-going person and reliable team player.</b><span class="quot">&rdquo;</span></p>
+								</div>
+								<div align="right">
+									<button href="#reco2"  class="btn btn-info primButton" data-toggle="collapse">More...</button>
+								</div>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -616,8 +669,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<p>© 2016 Easy Resume. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 		</div>
 	</div>
-	<!-- //footer --> 
-	
+	<!-- //footer -->
+	<script>
+		$(".primButton").click(function () { //you can give id or class name here for $('button')
+			$(this).text(function (i, old) {
+				return old == 'More...' ? 'Less...' : 'More...';
+			});
+		});
+	</script>
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
