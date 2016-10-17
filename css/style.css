@@ -317,6 +317,8 @@ p {
     width: 70%;
     border: 1px solid rgba(19, 198, 245, 0.84);
 	padding: 1.5em;
+    max-height: 300px;
+    overflow-y: auto;
 }
 .experience-left h3 {
     font-size: 1.8em;
