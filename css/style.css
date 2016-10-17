@@ -647,6 +647,7 @@ span.year {
     color: #fff;
 	font-size: 1.1em;
     margin: 10px 0px 0px 0px;
+    text-align: center;
 }
 .footer p a{
     color: #1dadd3;
