@@ -382,6 +382,24 @@ p {
 .experience-right span {
     font-size: 1.5em;
     color: #1dadd3;
+    text-align: justify;
+}
+
+span {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+#insideQuote {
+    display: none;
+}
+
+#reco2{
+    font-size: 1em;
+    color: #FFFFFF;
 }
 
 .timeline-wrap {
